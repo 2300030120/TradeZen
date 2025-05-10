@@ -1,0 +1,134 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f0f4f8;
+  color: #333;
+}
+
+/* Market Container */
+.market-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Title */
+.title {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Search and Filter */
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.search-input {
+  padding: 0.8rem;
+  width: 350px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.sector-select {
+  padding: 0.8rem;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+/* Stock List */
+.stock-list {
+  margin-top: 2rem;
+}
+
+.stock-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.stock-info {
+  flex: 1;
+}
+
+.stock-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.price {
+  font-size: 1.3rem;
+  color: #27ae60;
+  margin-bottom: 1rem;
+}
+
+.buy-button,
+.sell-button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buy-button {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.buy-button:hover {
+  background-color: #27ae60;
+}
+
+.sell-button {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.sell-button:hover {
+  background-color: #c0392b;
+}
+
+/* Placeholder for future features */
+.placeholder {
+  background-color: #fff;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.placeholder h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.placeholder p {
+  font-size: 1rem;
+  color: #777;
+}
